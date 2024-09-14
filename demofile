@@ -11,7 +11,7 @@ stages{
 	stage('Checkout') {
         steps 
 		{                
-            https://github.com/hkshitesh/Maven.git
+            git 'https://github.com/hkshitesh/DEVOPS-B25.git'
         }
     }
 
